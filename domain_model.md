@@ -13,19 +13,24 @@ Class = Account {
     this.balance
 
 Methods:
+deposit(date, amount)
+    withdrawal(date, amount)
 
 
-getBalance()
+getBalance() // not sure no longer neccessary. Thinking of updating through transactionData class instead
 }
 
 
 Class = TransactionData {
-    constructor()
+    constructor(new Date() credit, debit, balance)
+    //this. ```constructor arguments
 
     Methods:
     
     deposit(date, amount)
     withdrawal(date, amount)
+
+    
 }
 
 
